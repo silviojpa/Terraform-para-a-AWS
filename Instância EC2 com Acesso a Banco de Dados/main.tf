@@ -1,3 +1,4 @@
+# Este modelo cria uma VPC (nuvem privada virtual), uma sub-rede pública, um grupo de segurança para controlar o tráfego e uma instância EC2 que pode ser usada para se conectar a um banco de dados (que estaria em uma sub-rede privada).
 # Define o provider da AWS
 terraform {
   required_providers {
